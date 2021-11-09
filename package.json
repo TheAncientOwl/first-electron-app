@@ -1,0 +1,15 @@
+{
+  "name": "first-electron-app",
+  "version": "1.0.0",
+  "description": "My first electron app via *Quick Start | Electron*",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheAncientOwl",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.1"
+  }
+}

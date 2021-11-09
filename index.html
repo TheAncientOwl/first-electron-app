@@ -4,17 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
     <script src="./render.js" defer></script>
-    <title>Document</title>
+    <title>My first electron app</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js
-    <span id="node-version"></span>
-    , Chromium
-    <span id="chrome-version"></span>
-    , and Electron
-    <span id="electron-version"></span>
-    .
+    <h1>Hello There!</h1>
+
+    We are using
+    <ul>
+      <li>
+        Node.js
+        <span id="node-version"></span>
+      </li>
+      <li>
+        Chromium
+        <span id="chrome-version"></span>
+      </li>
+      <li>
+        Electron
+        <span id="electron-version"></span>
+      </li>
+    </ul>
+
+    <hr />
+    <button id="funnyBtn" class="btn btn-funny">Click me! :D</button>
+
+    <hr />
+    <button id="windowsError" class="btn btn-win-err">Throw windows error?</button>
+
+    <hr />
+    <div class="end">&lt; We'll be back! &gt;</div>
   </body>
 </html>
